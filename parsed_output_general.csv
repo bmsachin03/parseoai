@@ -1,0 +1,8 @@
+UE RNTI,Field,Value
+8f53,8f53,UL-RI 1
+8f53,8f53,dlsch_rounds 142/0/0/0
+8f53,8f53,ulsch_rounds 591/19/0/0
+8f53,8f53,LCID 1: TX            913 RX           2270 bytes
+8f53,8f53,LCID 2: TX              6 RX            116 bytes
+8f53,8f53,LCID 4: TX              0 RX              0 bytes
+8f53,8f53,LCID 5: TX            126 RX           3246 bytes
