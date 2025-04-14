@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import sys
 
-json_file = "gNB_logs_28-02-2025_20-26-35__28-02-2025_20-38-29.json"
+json_file = "parseoai\logs\gNB_logs_14-04-2025_12-47-44__14-04-2025_12-57-19.json"
 with open(json_file) as json_data:
     feature_data = json.load(json_data)["_buffer"]
     json_data.close()
@@ -51,6 +51,6 @@ for entry in feature_data:
         
 df = pd.DataFrame(flat_data)
 
-df.to_csv("feature_vector.csv", index=False)
+df.to_csv("feature_vector1.csv", index=False)
 
 print("CSV file saved successfully!")
