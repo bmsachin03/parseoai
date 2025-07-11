@@ -30,6 +30,8 @@ Thumbs.db
 
 ISE-based/PLApy/*
 
-PLA-pyfiles/data/converted_output1.csv
+
 
 ISE-based/data/converted_output1.csv
+PLA-pyfiles/data/converted_output1.csv
+ISE-based/PLApy/lib/python3.10/site-packages/llvmlite/binding/libllvmlite.so
