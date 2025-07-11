@@ -28,6 +28,8 @@ venv/
 .DS_Store
 Thumbs.db
 
-ISE-based/PLApy
+ISE-based/PLApy/*
+
+PLA-pyfiles/data/converted_output1.csv
 
 ISE-based/data/converted_output1.csv
