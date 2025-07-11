@@ -3,7 +3,7 @@ Kernel-based physical attribute fusion using Gaussian kernel.
 """
 
 import numpy as np
-from src.config import KERNEL_WIDTH
+from config import KERNEL_WIDTH
 
 def gaussian_kernel(x1, x2, sigma=KERNEL_WIDTH):
     diff = np.array(x1) - np.array(x2)

@@ -2,7 +2,7 @@
 Functions for normalizing physical layer attributes.
 """
 
-from src.config import ATTRIBUTE_RANGES
+from config import ATTRIBUTE_RANGES
 
 def normalize_attribute(value, attr_name):
     a, b = ATTRIBUTE_RANGES[attr_name]

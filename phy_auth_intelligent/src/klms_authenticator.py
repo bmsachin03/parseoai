@@ -2,8 +2,8 @@
 Implements the Kernel Least Mean Squares adaptive authentication process.
 """
 
-from src.kernel_machine import compute_kernel_output
-from src.config import LEARNING_RATE
+from kernel_machine import compute_kernel_output
+from config import LEARNING_RATE
 
 class KLMSAuthenticator:
     def __init__(self):
