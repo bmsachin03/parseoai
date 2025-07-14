@@ -1,6 +1,6 @@
-from src.simulate_env import simulate_cfo, simulate_cir, simulate_rssi
-from src.preprocess import normalize_vector
-from src.klms_authenticator import KLMSAuthenticator
+from simulate_env import simulate_cfo, simulate_cir, simulate_rssi
+from preprocess import normalize_vector
+from klms_authenticator import KLMSAuthenticator
 
 # Generate synthetic PHY attribute samples
 n_samples = 200
